@@ -1,0 +1,22 @@
+git init
+git add lab1.txt
+git commit -m 'initial project version'
+git remote add origin https://github.com/Orange1488/LabGIT.git
+git push -u origin master
+git checkout -b develop
+git push origin develop
+git checkout -b develop0.1
+git commit -m 'first commit'
+git push origin develop0.1
+git clone https://github.com/OrangE1488/LabGIT.git
+git checkout develop
+git checkout -b develop0.2
+git commit -m 'second step'
+git push origin develop0.2
+git checkout develop
+git merge develop0.1
+git merge develop0.2
+git pull
+git add lab1.txt
+git commit -m 'final'
+git push origin develop
